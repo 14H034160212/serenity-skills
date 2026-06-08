@@ -4,6 +4,10 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://skills.sh/14H034160212/serenity-skills"><img src="https://skills.sh/b/14H034160212/serenity-skills" alt="skills.sh"></a>
+</p>
+
 # serenity-skills
 
 Two installable agent skills built around **Serenity ([@aleabitoreddit](https://x.com/aleabitoreddit))** — a public X trader and AI/semiconductor *supply-chain* analyst who traces hyperscaler capex into the overlooked upstream bottlenecks (optical/CPO, InP substrates, memory/HBM, AI power/grid, robotics/physical AI).
