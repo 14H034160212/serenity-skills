@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Markets / Trading",
+      "description": "Serenity's AI/semiconductor supply-chain chokepoint analysis — an original CN six-step framework plus the full distilled @aleabitoreddit lens. Decision-support only, NFA.",
+      "skills": ["serenity-chokepoint-analysis", "serenity-aleabitoreddit"]
+    }
+  ]
+}
