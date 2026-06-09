@@ -10,24 +10,25 @@ Each entry covers one ticker. Update **Latest signal** and timestamp in-place wh
 
 ---
 
-## $SIVE (Sivers Semiconductors) — Last updated: 2026-06-09T07:21:45Z
+## $SIVE — Last updated: 2026-06-09T07:21:45Z
 
-- **View**: Bullish (CPO/photonics + Space/Defense dual-market chokepoint)
-- **Latest signal**: Sivers announced $8.2M volume orders from allspace (acquired by $YSS) for Ka-Band Beamforming ICs powering Space LEO/multi-orbit satellite communication. Serenity argues the bigger implication is Sivers now powers a defense prime ($YSS) following the allspace acquisition — analogous to $MRVL's Celestial design-in pattern — which typically leads to more follow-on volume contracts. Also flagged Jabil ($JBL) + other pluggable transceiver makers as next expected volume ramp catalysts in H1 2027. Combined with prior JP Morgan 5.25%+ disclosure, the thesis now spans CPO/photonics AI DC + Space/Defense + institutional float squeeze.
+- **View**: Bullish (space/defense catalyst + institutional float-squeeze)
+- **Latest signal**: Major catalyst confirmed — Sivers won an $8.2M production order for Ka-Band Beamforming ICs powering Space LEO/multi-orbit satellite communication via allspace. Key strategic implication: allspace was acquired by defense prime $YSS, positioning Sivers as a Tier-1 defense-prime supply-chain chokepoint — analogous to $MRVL's design-win with Celestial Semiconductor. Typically triggers follow-on volume contracts beyond the initial order size. Photonics volume ramp from Jabil and other pluggable makers also expected H1 2027. Prior catalyst: JP Morgan disclosed 5.25%+ stake — thin retail float constrains institutional accumulation.
 - **Post**: [2064246556690469123](https://x.com/aleabitoreddit/status/2064246556690469123) — 2026-06-09T07:21:45Z
-- **Key quote**: "A massive catalyst arrived today with $SIVE: Sivers announced $8.2M volume orders starting for Space applications (allspace). [...] Turns out Sivers is also a Space/Defense supply chain chokepoint (ahead of SpaceX IPO) on top of their photonics AI DC sector lasers... I'm expecting more volume ramps to be coming soon as well from their photonics side (looking at you Jabil + other pluggable makers)"
-- **Prior signal**: JP Morgan disclosed buying 5.25%+ of $SIVE ([2063951279278391414](https://x.com/aleabitoreddit/status/2063951279278391414) — 2026-06-08T11:48:25Z) — institutional float squeeze thesis still active
-- **Thesis type**: CPO/photonics supply-chain chokepoint + Space/Defense dual-market + JBL pluggable demand pipeline + institutional float squeeze
+- **Key quote**: "A massive catalyst arrived today with $SIVE: Sivers announced $8.2M volume orders starting for Space applications (allspace)...Sivers now powers a larger defense prime in $YSS following their allspace acquisition...typically leads to more follow-up orders + volume contracts...expecting more volume ramps to be coming soon as well from their photonics side (looking at you Jabil + other pluggable makers)"
+- **Thesis type**: Space/defense supply-chain chokepoint + institutional float squeeze (ahead of SpaceX IPO)
+- **Prior signal**: JP Morgan 5.25%+ stake disclosure [2063951279278391414](https://x.com/aleabitoreddit/status/2063951279278391414) — 2026-06-08T11:48:25Z
 
 ---
 
 ## $JBL (Jabil Inc.) — Last updated: 2026-06-09T06:44:07Z
 
-- **View**: Speculative long idea (no position disclosed)
-- **Latest signal**: Serenity flags $JBL at ~$38B market cap as "highkey compelling" — argues markets have not priced in their 1.6T LRO (long-reach optical) pluggable transceiver business. With $SIVE as the laser bottleneck heading into H1 2027 and JBL having already acquired INTC's pluggable transceiver lines, the setup is compared to an Innolight-style vertically integrated optical operation with US premiums and a hyperscaler-validated supply chain. Serenity estimates "maybe 40% upside seems plausible" by H1 2027 but explicitly states no positions held.
+- **View**: Tentatively bullish (speculative research idea, no position held)
+- **Latest signal**: Serenity flagged $JBL as a "highkey compelling long idea at $38B" — arguing markets haven't priced in the 1.6T LRO pluggable transceiver business, especially if $SIVE becomes the laser bottleneck through H1 2027. Jabil took over $INTC pluggable lines and is positioned as more scalable than $AAOI's capex-heavy laser-fab approach: if $SIVE + diverse fabs (Win Semi + others) supply lasers and $JBL handles final assembly, that creates an Innolight-style vertically-integrated setup with already-validated hyperscaler relationships and US-production premiums. Potential 40% re-rating by H1 2027.
 - **Post**: [2064237083510952402](https://x.com/aleabitoreddit/status/2064237083510952402) — 2026-06-09T06:44:07Z
-- **Key quote**: "$JBL seems highkey compelling long idea at $38B. Don't really think markets have priced in their 1.6T LRO pluggable transceiver business yet. [...] Don't currently have positions, just throwing out a thought for others to do research on. Prob H1 2027 is when everyone starts realizing."
-- **Thesis type**: LRO pluggable transceiver play on AI datacenter optical demand; SIVE/JBL supply-chain bridge (speculative; no position)
+- **Key quote**: "$JBL seems highkey compelling long idea at $38B...markets have not priced in their 1.6T LRO pluggable transceiver business yet...especially if it's 'how much can you make' with $SIVE as the bottleneck H1 2027...Prob H1 2027 is when everyone starts realizing. Maybe 40% re-rating seems plausible?"
+- **Thesis type**: Pluggable transceiver / AI DC supply-chain play (adjacent to $SIVE photonics thesis)
+- **Caveat**: Serenity explicitly states no current position; forward research idea, not an active call.
 
 ---
 
