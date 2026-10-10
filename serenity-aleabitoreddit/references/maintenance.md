@@ -42,15 +42,18 @@ The goal is to keep the skill current without turning it into a noisy transcript
 
 Before committing:
 
-1. Run `python3 update.py`. It tries `xreach` first, then parses the exact
-   status ids, text, and `created_at_ms` timestamps embedded in the public
-   `https://x.com/aleabitoreddit` profile response. Jina public status pages
-   are used only for rows the profile response cannot parse. This fallback
-   uses no browser cookies or login state; keep the returned public excerpt and
-   timestamp, and record the fallback source in the run report.
-   The profile parser follows the status-specific RSC `Tweet` object and its
-   `user_results` reference, and prefers the linked full `NoteTweet` text;
-   never take the first `full_text` found in a shared response window.
+1. **Primary path (Grok Bot):** pull posts with the X connector / API, write a
+   JSON dump, then merge:
+   `python3 update.py --from-json path/to/posts.json` (archive-shaped list, or
+   `{ "data": [...], "includes": {...} }` from `get_users_posts` /
+   `get_posts_by_ids`; prefer `note_tweet.text` over truncated `text`).
+   **Optional legacy only:** `python3 update.py` without `--from-json` still
+   tries `xreach`, then the public `https://x.com/aleabitoreddit` profile
+   (status ids / text / `created_at_ms`) and Jina status pages for unparsed
+   rows. Do not use that live pull for unattended refresh; record the source
+   in the run report if you do. The profile parser follows the status-specific
+   RSC `Tweet` object and its `user_results` reference, and prefers linked
+   `NoteTweet` text — never the first `full_text` in a shared response window.
 2. Refresh JSON, CSV, and ticker stats.
 3. Fetch any newly visible X Article share tweets or article bodies with
    authenticated access. Keep full article text out of the repo; summarize only
@@ -75,3 +78,19 @@ Before committing:
 - Use `skill/data: incremental tweet update (+<n>) <UTC ISO timestamp>` when the
   skill or references also change.
 - Do not create empty commits.
+
+## Unattended updates
+
+Supported path is **Grok Bot only** (no GitHub Actions / Codex heartbeat):
+
+1. Routine wakes (e.g. morning and evening Asia/Shanghai).
+2. Pull @aleabitoreddit via the X connector / API since `data/sync_state.json`
+   `last_tweet_id`.
+3. `python3 update.py --from-json <dump.json>` → refresh JSON/CSV/ticker stats.
+4. Distill durable signals per this playbook (`theses.md`, `track-record.md`,
+   period `analysis/` when needed).
+5. `python3 check_repo.py`, then commit and push when there is new data or a
+   meaningful skill improvement.
+
+See `scripts/github-workflows/README.md` for why CI is not the supported path.
+xreach / public-profile / Jina remain optional manual fallbacks only.
